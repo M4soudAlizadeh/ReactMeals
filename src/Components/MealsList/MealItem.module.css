@@ -1,0 +1,55 @@
+.meal-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  border-bottom: 1px solid rgb(158, 157, 157);
+  margin: 0.5rem auto;
+  padding: 3rem 2rem;
+}
+.meal-list section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.meal-list_part1 {
+  flex: 0.7;
+}
+.meal-list_part2 {
+  align-items: flex-end;
+  flex: 0.3;
+}
+.meal-list_part2 div {
+  text-align: right;
+}
+.meal-list_part2 div label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.meal-list_part2 div input {
+  padding: 0.3rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 0.5rem;
+  width: 40%;
+}
+.meal-list_part2 button {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  padding: 0.4rem 2rem;
+}
+
+.meal-list_part1 h5 {
+  font-weight: bold;
+  margin: 0;
+}
+.meal-list_part1 p {
+  margin: 0;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.meal-list_part1 h4 {
+  margin: 0;
+  color: rgb(173, 46, 46);
+}

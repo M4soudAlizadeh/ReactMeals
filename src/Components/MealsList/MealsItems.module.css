@@ -1,0 +1,15 @@
+.meal-items {
+  width: 70vw;
+  margin: 10% auto 50px auto;
+  background-color: white;
+  overflow: hidden;
+  animation: startup 1.5s ease-in-out;
+}
+@keyframes startup {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

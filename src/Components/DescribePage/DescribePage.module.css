@@ -1,0 +1,54 @@
+.describ {
+  position: absolute;
+  top: 40%;
+  left: 25vw;
+  right: 25vw;
+  z-index: 10;
+  width: 50vw;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.describ p {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 875px) {
+  .describ {
+    top: 40%;
+    left: 15vw;
+    right: 15vw;
+    width: 70vw;
+  }
+  h4 {
+    margin: 0;
+  }
+  .describ p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .describ {
+    top: 50%;
+    padding: 0.5rem;
+  }
+  h4 {
+    margin: 0;
+  }
+  .describ p {
+    margin: 0;
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 400px) {
+  .describ {
+    top: 45%;
+    padding: 0.5rem;
+  }
+  h4 {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+}
